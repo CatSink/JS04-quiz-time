@@ -1,0 +1,80 @@
+*, * ::before, * ::after {
+    box-sizing: content-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+.container {
+    display: flex;
+    max-height: auto;
+    max-width: auto;
+    background-color:blanchedalmond;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px 2px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: center;
+}
+.controls{
+    display: flex;
+    justify-content:left;
+
+}
+.btn-grid {
+    display:grid;
+    justify-content:space-between;
+    align-items: space-evenly
+    flex-direction:center;
+
+}
+.start {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-right: 20px;
+    background-color:rgb(9, 193, 77);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    line-height: 30px; 
+    margin-top: 10px;
+    text-align: center; 
+    border-radius: 5px;
+    border: 5px solid rgb(8, 167, 69);
+    padding: 10px;
+}
+.score {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    background-color: rgb(255, 225, 0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 24px;
+    line-height: 30px; 
+    margin-top: 10px;
+    text-align: center; 
+    border-radius: 5px;
+    border: 5px solid rgb(235, 192, 74);
+
+    padding: 10px;
+}
+.btn {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    line-height: 24px; 
+    margin-top: 10px;
+    text-align: center;  
+    color: #fff;
+    background-color: #26042e;
+    border-radius: 4px;
+    border: 3px solid #eac38a; 
+    width:100px;
+    height:50px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+button:hover {
+    cursor:grab;
+    border-color:aqua;
+    }
