@@ -10,10 +10,6 @@ Repository link:<https://github.com/CatSink/JS04-quiz-time/>
 Deployed webpage link:<https://catsink.github.io/JS04-quiz-time/>
 screenshot: ![screenshot](assets/jsQuiz.png)
 
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-
-![alt text](assets/images/screenshot.png)
-
 ## License
 
 MIT License
