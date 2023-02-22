@@ -1,6 +1,5 @@
 
-let currentQuestionIndex = 0;
-  
+let currentQuestionIndex = 0;  
 const quizContainer = document.getElementById("quiz");
 const startButton = document.getElementById("start-btn");
 const questionsContainer = document.getElementById("questions");
@@ -40,11 +39,13 @@ const questions =
       answer: "3"
  }
 ];
+const button = document.createElement("button");
+
 //choices button issues; failing to define connection between btn class and choices array.
 //forloop
 for (let i = 0; i < questions[currentQuestionIndex].choices; i++) {
  const button = document.createElement("button");
-button.classList.add("button-btn");
+button.classList.add("btn");
 button.innerText = questions[currentQuestionIndex].choices[i];
 console.log(button)
 
@@ -59,7 +60,7 @@ function startQuiz() {
  quizContainer.classList.remove("hide");
  currentQuestionIndex = 0;
  questionsContainer.innerText = questions[currentQuestionIndex].question;
- button.innerText = questions[currentQuestionIndex].choices;
+ button.innerText = questions.choices;
  questionsContainer.classList.remove("hide");
 }
  // established length of questions array, shows 5 in console
